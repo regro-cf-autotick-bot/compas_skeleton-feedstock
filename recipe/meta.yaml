@@ -1,13 +1,13 @@
 {% set name = "compas_skeleton" %}
-{% set version = "1.1.4" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 72c98634d0edb591c5594c6ccd1e5cab5ab7cc0b51f5b639041805af2ee48123
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 498ad28732b7131089a7560cb7a489ba9aebdab175a2c0cdadcba6e41c01e7f0
 
 build:
   noarch: python
